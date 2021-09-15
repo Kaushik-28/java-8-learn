@@ -17,6 +17,7 @@ public class ComparatorLambdaExample {
         //new
         Comparator<Integer> comparatorLambda = (o1,o2) -> o1.compareTo(o2);
         System.out.printf("\ncomparison of 2 AND 3 : %d",comparatorLambda.compare(2,3));
+        //this is a test comment.t
     }
 
 }
